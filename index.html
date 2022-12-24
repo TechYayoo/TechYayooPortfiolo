@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "Author" content="This site is created by Tony Y. Johnson JR ">
+    <meta name = "refresh" content="">
+    <meta name = "description" content="A Liberian born impressive programmer, in Tony Y. Johnson, JR commonly known as tech yayoo. ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Tech Yayoo Profiolo</title>
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+          <h1 class="logo"><span class="color__logo">Tech</span>Yayoo.</h1>
+          <ul id="websiteMenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfiolo">Portfiolo</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-sharp fa-solid fa-square-xmark" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fa-sharp fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header__text">
+            <p>Java API Developer</p>
+            <h1>Hi folks, I'm <span class="headerText__color">Tony Y. Johnson</span><br>from Liberia</h1>
+        </div>
+    </div>
+</div>
+
+<!---- ============ About Section   ==========-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about__col__1">
+                <img src="/Images/techyayoo1.png" alt="">
+            </div>
+            <div class="about__col__2">
+                <h2 class="sub__title">About Me</h2>
+                <p>I am self- motivated and educationally courageous young guy who is eager in acquiring
+                     higher education. I have an ambition of someday contributing to my country in the 
+                     technology sector, and also the desperation of solving world related problems in order
+                    to create a safe and easy environment through my technological ideas; That which I am
+                    willing to earn a degree in computer sciences and also accomplishing my dreams by
+                    becoming Doctor of Philosophy in machine learning and data analysis.  </p>
+                  <div class="tab__title">
+                    <p class="tab__links" onclick="openTap('experience')">Experience</p>
+                    <p class="tab__links" onclick="openTap('education')">Education</p>
+                    <p class="tab__links active__links " onclick="openTap('skills')">Skills</p>
+                  </div> 
+                  <div class="tab__contents active__tab" id="skills">
+                    <ul>
+                      <li><span>Java</span><br>Building Web APIs</li>
+                      <li><span>Web Devlopment</span><br>Desinging Web/App Interfaces</li>
+                      <li><span>Software Devlopment</span><br>Creating some scripts for automation</li>
+                    </ul>
+                  </div> 
+
+                  <div class="tab__contents" id="experience">
+                    <ul>
+                      <li><span>2021 - current</span><br>Introduction to Programing training 
+                      using Java at Rhotel House of Innovation</li>
+                      <li><span>2019 - 2020</span><br>IT Assistant at COCEF Liberia</li>
+                      <li><span>2018 - 2019</span><br>Apprentice at  CodeBrothers Software Development Training </li>
+                    </ul>
+                  </div> 
+
+                  <div class="tab__contents" id="education">
+                    <ul>
+                      <li><span>2022</span><br>Currently studying at ALX Software Engineering Program</li>
+                      <li><span>2021</span><br>Full Stack developer from Rhotel House of Innovation</li>
+                      <li><span>2019</span><br>High School Diploma from Len Millar</li>
+                    </ul>
+                  </div> 
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!-- ====== Services Page -->
+<div id="services">
+  <div class="container">
+    <h2 class="sub__title"> My Services</h2>
+    <div class="services__list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Software Development</h2>
+        <p>Myself, me and I have and is exploring the 
+          world of technology in order to create a safe working
+          environment.
+        </p>
+        <a href="#">Lean More</a>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-file-code"></i>
+        <h2>APIs Design</h2>
+        <p>Using  designed automate approaches
+         to protect and administrate systems
+       </p>
+        <a href="#">Lean More</a>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-file-code"></i>
+        <h2>UI/UX Design</h2>
+        <p>Creating a suitable pattern control structures
+         in order to minimize the volunerability of Web/App
+         interfaces
+        </p>
+        <a href="#">Lean More</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== Portfiolo Page ======= -->
+<div id="portfiolo">
+  <div class="container">
+    <h2 class="sub__title"> My Work</h2>
+    <div class="work__list">
+      <div class="work">
+        <img src="/Images/download.jpg" alt="">
+        <div class="app__layer">
+          <h3>Age Predicttion Tool</h3>
+          <p>A software tool that predicts the age of a person
+            depending on the year of birth entered by a user.
+          </p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="/Images/site3.jpg" alt="">
+        <div class="app__layer">
+          <h3>Student Management Application</h3>
+          <p>A application tool used for storing and retrivig students'
+            infos 
+             </p>
+          <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="/Images/site2.jpg" alt="">
+        <div class="app__layer">
+          <h3>E- Commerce Site</h3>
+          <p>A website that mangeges and keeps clients daily
+            informations and activities.
+           </p>
+          <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+  <a href="#" class="app__btn">See More</a>
+
+  </div>
+</div>
+
+<!--======= Contact Info ==========-->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact__left">
+        <h1 class="sub__title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>yayootheprogrammer21@gmail.com</p>
+        <p><i class="fa-solid fa-phone-volume"></i>+231770030704/0555798912</p>
+        <div class="social__icons">
+          <a href="https://www.facebook.com/profile.php?id=100027962932505"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com/yayoo_jr"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/tony-y-j-aba496225"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.youtube.com/@yayoojohnson5124"><i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="Images/Resume design.pdf" download class="app__btn btn2">Download Resume (CV)</a>
+      </div>
+      <div class="contact__right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name"placeholder="Your name" required>
+          <input type="text" name="Email" placeholder="Your email" required>
+          <textarea name="Message" rows="5" placeholder="Messaged Me"></textarea>
+          <button type="submit" class="app__btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright &copy; 2022 Tech Yayoo. I am in <i class="fa-solid fa-heart"></i> love with Coding</p>
+  </div>
+</div>
+ 
+
+
+
+
+  <script src="./app.js"></script>
+
+    
+</body>
+</html>
